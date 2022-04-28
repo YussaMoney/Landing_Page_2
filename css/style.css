@@ -77,4 +77,7 @@ article h3, article h4, .content{
 footer{
     background: #1f2937;
 }
-
+header div img{
+    height: 300px;
+    width: 500px;
+}
