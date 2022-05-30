@@ -1,51 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page 2</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <h1><img src="./image/scary-face.jpg" alt="a sample of logo"
-                 width="60px;" height="60px;"></h1>
-            <h2><a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Contact</a>
-            </h2> 
-        </nav>
-       
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main 
-            title. It's a smaller font and the color is lower contrast.
-        </p>
-        <button>Sign up</button>
-        <div class="image"><img src="./image/venom.jpg" alt="an animation"></div>
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <li><a href="">Home</a></li>
+          |
+          <li><a href="">About</a></li>
+          |
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+      <img
+        src="./image/scary-face.jpg"
+        alt="a sample of logo"
+        class="logo-img"
+      />
+
+      <div class="header flex-container">
+        <div class="header info">
+          <h1 class="title">This website is awesome</h1>
+          <p class="title-footer">
+            This website has some subtext that goes here under the main title.
+            <br />
+            It's a smaller font and the color is lower contrast.
+          </p>
+          <button class="sign-button">Sign up</button>
+        </div>
+        <div class="image">
+          <img src="./image/venom.jpg" alt="an animation" />
+        </div>
+      </div>
     </header>
 
     <main>
+      <section class="box-container">
         <section class="box1"></section>
-        <div class="box2"><img src="./image/cat-woman.jpg" alt="an animation"></div>
+        <section class="image-box">
+          <img src="./image/cat-woman.jpg" alt="an animation" />
+        </section>
         <section class="box3"></section>
-        <section class="box4">this is some subtext under an illustration or image</section>
-       
-        <article>
-            <p class="quote">This is an inspiring qoute, or a testimonial from a customer. Maybe 
-            it's just filling up space, or maybe people will actually read it.
-            Who knows? All I know is that it looks nice.</p>
-            <p class="author">-Thor, God of Thunder</p>
-            <h4>Call to action! It's time!</h4>
-            <p class="content">Sign up for our product by clicking that button right over there!</p>
-            <button>Sign up</button>
-        </article>
+        <section class="box4">
+          this is some subtext under an illustration or image
+        </section>
+      </section>
 
+      <article>
+        <p class="quote">
+          This is an inspiring qoute, or a testimonial from a customer. Maybe
+          it's just filling up space, or maybe people will actually read it. Who
+          knows? All I know is that it looks nice.
+        </p>
+        <p class="author">-Thor, God of Thunder</p>
+        <div class="article-flex-container">
+          <div class="attention">
+            <h4>Call to action! It's time!</h4>
+            <p class="content">
+              Sign up for our product by clicking that button right over there!
+            </p>
+          </div>
+          <button class="sign-up">Sign up</button>
+        </div>
+      </article>
     </main>
 
-    <footer>
-        Copyright c The Yusuf Project 2022
-    </footer>
-</body>
+    <footer>Copyright (c) The Yusuf Project 2022</footer>
+  </body>
 </html>
