@@ -18,13 +18,13 @@ To get a local copy up and running follow these simple example steps.
 `$ git clone https://github.com/YussaMoney/Landing_Page_2`
 - Press Enter. Your local copy will be created.
 ### Prerequisites
-Html
-css
+Web Browser(Chrome/Firefox)
 
 ## Author
 👤 **Azeez Yusuf O.**
 - Github: [@YussaMoney](https://github.com/YussaMoney)
 - Twitter: [@YussaMoney](https://twitter.com/YussaMoney)
+- Linkedin: [@YussaMoney](https://www.linkedin/.com/in/YussaMoney)
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
@@ -34,7 +34,4 @@ Give a ⭐️if you like this project!
 
 ## Acknowledgement
 - [Teekaytech](https://github.com/teekaytech)
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+- [The Odin Project](https://www.theodinproject.com)
